@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Education_Summary.MainMenu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Education_Summary"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="50">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/1685415595184.png" Stretch="UniformToFill"/>
+            </Button.Background>
+            <TextBlock Text="Mechanical&#10;Engineering" TextWrapping="Wrap" TextAlignment="Center" FontFamily="Segoe UI Black"/>
+        </Button>
+        <Button Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="50">
+            <TextBlock Text="Computer&#10;Science" TextWrapping="Wrap" TextAlignment="Center" FontFamily="Segoe UI Black"/>
+        </Button>
+    </Grid>
+</Page>
